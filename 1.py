@@ -1,4 +1,4 @@
-
+print("lesson 1 which shows how to define variables in python")
 name = "venkat"
 age = 25
 learning_python = True
