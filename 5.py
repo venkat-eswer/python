@@ -21,3 +21,24 @@ def prime_numbers(n):
     return primes
 
 print(prime_numbers(20))
+
+print("lesson 5: lists and tuples")
+
+# Lists are changeable: you can add or update items.
+favorite_foods = ["pizza", "pasta", "salad"]
+print("Favorite foods:", favorite_foods)
+
+favorite_foods.append("sushi")
+favorite_foods[1] = "rice"
+
+print("Updated foods:", favorite_foods)
+
+print("Each food:")
+for food in favorite_foods:
+    print(food)
+
+# Tuples are ordered, but their items cannot be changed.
+coordinates = (10, 20)
+x, y = coordinates
+print(f"x: {x}, y: {y}")
+
